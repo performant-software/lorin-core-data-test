@@ -1,0 +1,51 @@
+{
+  "content": [
+    "paths",
+    "posts"
+  ],
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+    }
+  ],
+  "map": {
+    "geometry": "geometry",
+    "max_zoom": 14,
+    "zoom_to_place": true
+  },
+  "search": {
+    "geosearch": true,
+    "result_card": {
+      "title": "6e89decd-b884-47ef-a052-a2f49ab4c33c.0.name",
+      "subtitle": "name"
+    },
+    "route": "/places"
+  },
+  "typesense": {
+    "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+    "port": 443,
+    "protocol": "https",
+    "api_key": "PSNp8MUfQBInjahcHQ3l76jChrHZHqmj",
+    "index_name": "scavenger_hunt",
+    "query_by": "name"
+  },
+  "core_data": {
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [
+      "43",
+      "44",
+      "45"
+    ]
+  },
+  "detail_pages": [
+    "works"
+  ]
+}
